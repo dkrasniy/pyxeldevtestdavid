@@ -3,13 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "pyxeldev",
   },
-  plugins: [
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        accessToken: "krkdfgd",
-        spaceId: "",
-      },
-    },
-  ],
-};
+  plugins: ['gatsby-plugin-postcss'],
+}; 
